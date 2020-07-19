@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .container{
+      width: 80%;
+      margin: auto;
+  }
+  @media screen and (max-width: 700px) {
+    .container {
+       width: 95%;
+    }
+}
